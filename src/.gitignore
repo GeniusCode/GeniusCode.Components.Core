@@ -1,0 +1,17 @@
+/build
+
+
+# Standard VS.NET and ReSharper Foo
+*/obj
+*/bin
+*.csproj.user
+*ReSharper.user
+_ReSharper*
+*resharper*
+*.suo
+*.cache
+* Thumbs.db
+
+#leftovers from merge
+*.orig
+*.bak
