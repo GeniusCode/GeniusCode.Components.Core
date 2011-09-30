@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GeniusCode.Components</RootNamespace>
     <AssemblyName>gcCore</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,8 +46,20 @@
     <Compile Include="Caching\ICacheAdapterExtenstions.Shared.cs" />
     <Compile Include="Caching\Implementations\InstanceCacheAdater.Shared.cs" />
     <Compile Include="Caching\Implementations\SingletonCacheAdapter.Shared.cs" />
+    <Compile Include="Delegates\ComparerDelegate.cs" />
+    <Compile Include="Delegates\EqualityComparerDelegate.cs" />
+    <Compile Include="Delegates\GetHashcodeDelegate.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\DictionaryHelpers.cs" />
     <Compile Include="Extensions\TypeExtensions.Shared.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support\Collections\SelfKeyingDictionary.cs" />
+    <Compile Include="Support\Comparison\gcGenericComparer.cs" />
+    <Compile Include="Support\Comparison\gcGenericEqualityComparer.cs" />
+    <Compile Include="Support\Random\Random.cs" />
+    <Compile Include="Support\Random\RandomCollection.cs" />
+    <Compile Include="Support\Random\RandomCollectionExtensions.cs" />
+    <Compile Include="Support\Random\WeightedItem.cs" />
     <Compile Include="Support\Reflection\ReflectionHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
