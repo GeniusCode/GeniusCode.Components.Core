@@ -2,8 +2,8 @@
 
 
 # Standard VS.NET and ReSharper Foo
-*/obj
-*/bin
+*obj
+*bin
 *.csproj.user
 *ReSharper.user
 _ReSharper*
